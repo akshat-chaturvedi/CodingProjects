@@ -75,6 +75,14 @@ def comicEmailer():
     sendMailWithAttachement(subject, body, attachmentPath, attachmentName)
     logging.info('{} comic emailed'.format(os.path.basename(attachmentName)))
 
+    fileNames = [time[0] for time in fileTimes]
+    if len(fileNames) > 1:
+        for fileName in fileNames:
+            if fileName != ".DS_Store" and fileName != attachmentName:
+                os.remove('xkcdComics/{}'.format(fileName))
+                logging.info("{} has been deleted".format(fileName))
+
+
 def main():
     hashDir = os.path.dirname(os.path.realpath(__file__))
     fileName = os.path.join(hashDir, 'XKCDHash.txt')
