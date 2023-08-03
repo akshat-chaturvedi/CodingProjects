@@ -20,7 +20,7 @@ def comicDownloader():
 
     comicElement = comicHTML.select('#comic img')
 
-    if comicElement == []:
+    if not comicElement:
         logging.info('Comic not found')
 
     else:
