@@ -54,7 +54,7 @@ def APODEmailer():
 
     subject = "Today's APOD"
     attachmentName = fileTimes[0][0]
-    body = attachmentName
+    body = attachmentName.split('.')[0]
     attachmentPath = os.path.join(dirPath, attachmentName)
 
     sendMailWithAttachement(subject, body, attachmentPath, attachmentName)
