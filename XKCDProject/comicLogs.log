@@ -24,3 +24,7 @@ INFO (03/08/2023 05:59:01 PM): how_to_coil_a_cable.png comic downloaded (Line: 3
 INFO (03/08/2023 05:59:04 PM): how_to_coil_a_cable.png comic emailed (Line: 76 [comicEmailer.py])
 INFO (03/08/2023 05:59:12 PM): moon.png has been deleted (Line: 84 [comicEmailer.py])
 INFO (03/08/2023 05:59:12 PM): daytime_firefly.png has been deleted (Line: 84 [comicEmailer.py])
+INFO (04/08/2023 06:00:01 AM): No new comic today (Line: 48 [comicEmailer.py])
+INFO (05/08/2023 06:51:40 AM): free_fallin.png comic downloaded (Line: 37 [comicEmailer.py])
+INFO (05/08/2023 06:51:47 AM): free_fallin.png comic emailed (Line: 76 [comicEmailer.py])
+INFO (05/08/2023 06:51:47 AM): how_to_coil_a_cable.png has been deleted (Line: 83 [comicEmailer.py])

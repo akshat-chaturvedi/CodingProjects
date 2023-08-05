@@ -68,8 +68,8 @@ def comicEmailer():
     fileTimes.sort(key=lambda x: x[1], reverse=True)
 
     subject = "Today's XKCD comic"
-    body = "Here is today's XKCD comic"
     attachmentName = fileTimes[0][0]
+    body = attachmentName
     attachmentPath = os.path.join(dirPath, attachmentName)
 
     sendMailWithAttachement(subject, body, attachmentPath, attachmentName)
