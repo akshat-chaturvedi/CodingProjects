@@ -1,0 +1,9 @@
+/Users/akshatchaturvedi/Documents/CodingProjects/rustProjects/hello-rust/target/debug/deps/core_graphics_types-77713a234f241813.rmeta: /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/lib.rs /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/base.rs /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/geometry.rs
+
+/Users/akshatchaturvedi/Documents/CodingProjects/rustProjects/hello-rust/target/debug/deps/libcore_graphics_types-77713a234f241813.rlib: /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/lib.rs /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/base.rs /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/geometry.rs
+
+/Users/akshatchaturvedi/Documents/CodingProjects/rustProjects/hello-rust/target/debug/deps/core_graphics_types-77713a234f241813.d: /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/lib.rs /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/base.rs /Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/geometry.rs
+
+/Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/lib.rs:
+/Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/base.rs:
+/Users/akshatchaturvedi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/core-graphics-types-0.1.2/src/geometry.rs:

@@ -81,5 +81,9 @@ if __name__ == "__main__":
     api_key = os.getenv("APOD_API")
     date = date.today()
 
-    downloadAPOD(api_key, date)
-    APODEmailer()
+    try:
+        downloadAPOD(api_key, date)
+        APODEmailer()
+    except Exception as e:
+        pass
+    
