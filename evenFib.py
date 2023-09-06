@@ -22,6 +22,6 @@ def evenFib(n):
 
 if __name__ == '__main__':
     startTime = time.time()
-    print(evenFib(4e6))
+    print(evenFib(4e30))
     endTime = time.time()
     print(f"Time taken: {endTime-startTime:.5e} seconds")
