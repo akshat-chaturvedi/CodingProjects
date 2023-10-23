@@ -1,3 +1,4 @@
+from emailer import sendMail
 import requests
 import os
 import dotenv
@@ -7,7 +8,6 @@ import sys
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'XKCDProject'))
 
-from emailer import sendMail
 
 def todoList(userID: str, apiKey: str):
     baseURL = "https://habitica.com/api/v3/tasks/user"
@@ -42,6 +42,7 @@ def todoList(userID: str, apiKey: str):
 
     sendMail(subject, body)
     # print(body)
+
 
 if __name__ == '__main__':
     api_key = os.getenv("HABITICA_API")
